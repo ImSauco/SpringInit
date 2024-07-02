@@ -1,0 +1,17 @@
+package com.keepcoding.intro.app.hello;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.keepcoding.intro.app.entity.Persona;
+
+@RestController /*Esto es un controlador*/
+
+public class Hello {
+	Persona objPersona;
+	@GetMapping("/saludar")
+	public String saludar() {
+		objPersona = new Persona("Carlos", "Perez", "12345678x","cperez@s.com",666555444);
+		return objPersona;
+	}
+}

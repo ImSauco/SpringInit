@@ -1,0 +1,11 @@
+package com.keepcoding.intro.app.hello;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController /*Esto es un controlador*/
+
+public class Hello {
+	public String saludar() {
+		return "Hola mundo Springboot";
+	}
+}

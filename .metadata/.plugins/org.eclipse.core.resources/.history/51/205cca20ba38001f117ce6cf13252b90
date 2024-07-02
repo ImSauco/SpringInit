@@ -1,0 +1,21 @@
+package com.keepcoding.intro.app.entity;
+
+public class Persona {
+
+		private String nombre;
+		private String apellido;
+		private String dni;
+		private String email;
+		private long telefono;
+		
+		public Persona(String nombre, String apellido, String dni, String email, long telefono) {
+			super();
+			this.nombre = nombre;
+			this.apellido = apellido;
+			this.dni = dni;
+			this.email = email;
+			this.telefono = telefono;
+		}
+		
+		
+}
