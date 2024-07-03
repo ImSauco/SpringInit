@@ -20,7 +20,7 @@ public class Hello {
 	List listaPersona= null;
 	
 	@GetMapping("/saludar")
-	
+ 
 	public List<Persona> saludar() {
 //		objPersona = new Persona("Carlos", "Perez", "12345678x","cperez@s.com",666555444);
 //		objPersona2 = new Persona("Carlo", "Perez", "12345678x","cperez@s.com",666555444);

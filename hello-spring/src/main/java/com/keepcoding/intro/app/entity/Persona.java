@@ -10,7 +10,8 @@ public class Persona {
 		private String dni;
 		private String email;
 		private int telefono;
-		public Persona() {
+		
+		public Persona() { //Constructor vacío. Esto se hace para poder inyectarlo con el autowired
 			
 		}
 		
